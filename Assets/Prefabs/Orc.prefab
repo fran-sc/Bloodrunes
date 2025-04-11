@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4535175218575337293}
   - component: {fileID: 509688780416759687}
   - component: {fileID: 8151292126760093793}
+  - component: {fileID: 3652624599175178600}
+  - component: {fileID: 3112714711039882291}
   - component: {fileID: 1094162453553209743}
   - component: {fileID: 7268289509312492384}
   - component: {fileID: 7670498149599709897}
@@ -115,6 +117,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3652624599175178600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247795738332099934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d0a6703827bca2ab9ff4a8a0ea467d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushTime: 0.25
+--- !u!114 &3112714711039882291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247795738332099934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85412ef3d52f3031fb9e4bbe1051a352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialHealth: 3
+  hitEffectDuration: 0.1
+  deathVFX: {fileID: 5003707350228659716, guid: 96fb9e15fdd4a83c09bb82d69366757d, type: 3}
 --- !u!114 &1094162453553209743
 MonoBehaviour:
   m_ObjectHideFlags: 0
